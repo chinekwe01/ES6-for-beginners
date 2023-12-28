@@ -29,7 +29,7 @@ const object = {
 const { channelName, views} = object;
 
 // rest operator
-const add = (a, b, c) => console.log([a, b, c].reduce((a, b ) => a + b, 0));
-add(1, 2, 3);
+const add = (...number) => console.log(number.reduce((a, b ) => a + b, 0));
+add(1, 2, 3, 5, 9);
 
 // spread operator
