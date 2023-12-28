@@ -21,8 +21,17 @@ const add = (a = 0, b = 2) => console.log(a + b);
 const array = [1, 2, 3];
 const [ first, second, third ] = array;
 
-
 // object destructuring
+const object = {
+    channelName: "Tech Pips",
+    views: 1500,
+}
+const channelName = object.channelName;
+const views = object.views;
+console.log(`
+    The channel name is ${channelName},
+    and it has ${views} views.
+`);
 
 // rest operator
 
