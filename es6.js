@@ -18,8 +18,8 @@ greeting('John')
 // const add = (a = 0, b = 2) => console.log(a + b);
 
 // array destructuring
-const array = [1, 2, 3];
-const [ first, second, third ] = array;
+// const array = [1, 2, 3];
+// const [ first, second, third ] = array;
 
 // object destructuring
 const object = {
@@ -33,3 +33,5 @@ const add = (...number) => console.log(number.reduce((a, b ) => a + b, 0));
 add(1, 2, 3, 5, 9);
 
 // spread operator
+const array = [1, 2, 3];
+console.log(array[0], array[1], array[2]);
