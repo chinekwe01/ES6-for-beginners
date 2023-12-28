@@ -15,7 +15,7 @@ const greeting = (name) => {
 greeting('John')
 
 // default parameters
-const add = (a = 0, b = 2) => console.log(a + b);
+// const add = (a = 0, b = 2) => console.log(a + b);
 
 // array destructuring
 const array = [1, 2, 3];
@@ -29,5 +29,7 @@ const object = {
 const { channelName, views} = object;
 
 // rest operator
+const add = (a, b, c) => console.log([a, b, c].reduce((a, b ) => a + b, 0));
+add(1, 2, 3);
 
 // spread operator
