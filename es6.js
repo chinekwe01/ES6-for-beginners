@@ -26,12 +26,7 @@ const object = {
     channelName: "Tech Pips",
     views: 1500,
 }
-const channelName = object.channelName;
-const views = object.views;
-console.log(`
-    The channel name is ${channelName},
-    and it has ${views} views.
-`);
+const { channelName, views} = object;
 
 // rest operator
 
